@@ -1,1 +1,0 @@
-std::cout << round(-1.5) << std::endl;
