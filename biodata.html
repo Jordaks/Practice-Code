@@ -11,8 +11,62 @@
 				font-family: Helvetica, Arial, sans-serif;
 			}
 			div {
-				border-style: double;
-				box-flex: center;
+				color: rgb(0, 0, 0);
+			}
+			.text {
+				display: flex;
+				flex-direction: space-around;
+				gap: 19rem;
+			}
+			.name {
+				display: flex;
+				flex-direction: space-around;
+				gap: 1rem;
+			}
+			.cellphone {
+				display: flex;
+				flex-direction: space-around;
+				gap: 21rem;
+			}
+			.birth {
+				display: flex;
+				flex-direction: space-around;
+				gap: 38.6rem;
+			}
+			.civil {
+				display: flex;
+				flex-direction: space-around;
+				gap: 42.8rem;
+			}
+			.body {
+				display: flex;
+				flex-direction: space-around;
+				gap: 22.2rem;
+			}
+			.papa {
+				display: flex;
+				flex-direction: space-around;
+				gap: 36rem;
+			}
+			.mama {
+				display: flex;
+				flex-direction: space-around;
+				gap: 36rem;
+			}
+			.elementary {
+				display: flex;
+				flex-direction: space-around;
+				gap: 35.1rem;
+			}
+			.high {
+				display: flex;
+				flex-direction: space-around;
+				gap: 33.9rem;
+			}
+			.senior {
+				display: flex;
+				flex-direction: space-around;
+				gap: 33.1rem;
 			}
 		</style>
 	</head>
@@ -20,20 +74,24 @@
 		<h1>PERSONAL DATA</h1>
 
 		<div>
-			<div class="name">
-				<tr>
-					<b>Name:</b>
-					Mark Jordan B. Javier
-				</tr>
-			</div>
-			<br />
-			<div class="sex">
-				<tr>
-					<b>Sex:</b>
-					Male
-				</tr>
+			<div class="text">
+				<div class="name">
+					<tr>
+						<b>Name:</b>
+						Mark Jordan B. Javier
+						<br />
+					</tr>
+				</div>
 				<br />
+				<div class="name">
+					<tr>
+						<b>Sex:</b>
+						Male
+					</tr>
+					<br />
+				</div>
 			</div>
+
 			<br />
 			<div>
 				<tr>
@@ -49,19 +107,22 @@
 				</tr>
 			</div>
 			<br />
-			<div>
-				<tr>
-					<b>Telephone no.: </b
-					>None
-				</tr>
+			<div class="cellphone">
+				<div>
+					<tr>
+						<b>Telephone no.: </b
+						>None
+					</tr>
+				</div>
+				<br />
+				<div>
+					<tr>
+						<b>Cellphone no.:</b>
+						09167161667
+					</tr>
+				</div>
 			</div>
-			<br />
-			<div>
-				<tr>
-					<b>Cellphone no.:</b>
-					09167161667
-				</tr>
-			</div>
+
 			<br />
 			<div>
 				<tr>
@@ -70,47 +131,54 @@
 				</tr>
 			</div>
 			<br />
-			<div>
-				<tr>
-					<b>Date of Birth:</b>
-					April 21, 2005
-				</tr>
+			<div class="birth">
+				<div>
+					<tr>
+						<b>Date of Birth:</b>
+						April 21, 2005
+					</tr>
+				</div>
+				<div>
+					<tr>
+						<b> Place:</b>
+						Brgy. Boot Tanauan City Batangas
+					</tr>
+				</div>
 			</div>
+
 			<br />
-			<div>
-				<tr>
-					<b>Civl Status:</b>
-					Single
-				</tr>
+			<div class="civil">
+				<div>
+					<tr>
+						<b>Civl Status:</b>
+						Single
+					</tr>
+				</div>
+				<div>
+					<tr>
+						<b> Citizenship:</b>
+						Filipino
+					</tr>
+				</div>
 			</div>
+
 			<br />
-			<div>
-				<tr>
-					<b>Height:</b>
-					179cm
-				</tr>
+			<div class="body">
+				<div>
+					<tr>
+						<b>Height:</b>
+						179cm
+					</tr>
+				</div>
+				<br />
+				<div>
+					<tr>
+						<b>Weight:</b>
+						81kg
+					</tr>
+				</div>
 			</div>
-			<br />
-			<div>
-				<tr>
-					<b>Weight:</b>
-					81kg
-				</tr>
-			</div>
-			<br />
-			<div>
-				<tr>
-					<b>Father's Name:</b>
-					Alejandro T. Javier
-				</tr>
-			</div>
-			<br />
-			<div>
-				<tr>
-					<b>Mother's Name:</b>
-					Adelaida B. Javier
-				</tr>
-			</div>
+
 			<br />
 			<div>
 				<tr>
@@ -119,6 +187,96 @@
 				</tr>
 			</div>
 			<br />
+			<div class="papa">
+				<div>
+					<tr>
+						<b>Father's Name:</b>
+						Alejandro T. Javier
+					</tr>
+				</div>
+				<div>
+					<tr>
+						<b>Occupation:</b>
+						Farmer
+					</tr>
+				</div>
+			</div>
+			<br />
+			<div class="mama">
+				<div>
+					<tr>
+						<b>Mother's Name:</b>
+						Adelaida B. Javier
+					</tr>
+				</div>
+				<div>
+					<tr>
+						<b>Occupation:</b>
+						Housewife
+					</tr>
+				</div>
+			</div>
+
+			<br />
+		</div>
+		<br />
+
+		<h1>EDUCATIONAL ATTAINMENT</h1>
+		<div>
+			<div class="elementary">
+				<div>
+					<tr>
+						<b>Elementary:</b>
+						Boot Elementary School
+					</tr>
+				</div>
+				<div>
+					<tr>
+						<b>Year Graduated:</b>
+						2017
+					</tr>
+				</div>
+			</div>
+
+			<br />
+			<div class="high">
+				<div>
+					<tr>
+						<b>High School:</b>
+						Boot National High School
+					</tr>
+				</div>
+				<div>
+					<tr>
+						<b>Year Graduated:</b>
+						2021
+					</tr>
+				</div>
+			</div>
+
+			<br />
+			<div class="senior">
+				<div>
+					<tr>
+						<b> Senior High School:</b>
+						Tanauan Institute. Inc
+					</tr>
+				</div>
+				<div>
+					<tr>
+						<b>Year Graduated:</b>
+						2023
+					</tr>
+				</div>
+			</div>
+
+			<br />
+			<div>
+				<tr>
+					<b> College:</b>
+					Batangas State University - JPLPC Malvar
+				</tr>
+			</div>
 		</div>
 	</body>
 </html>
