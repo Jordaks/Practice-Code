@@ -5,8 +5,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
 		<style>
+			.picture {
+				display: flex;
+				flex-direction: space-around;
+				gap: 40rem;
+			}
 			h1 {
-				font-size: 80px;
+				font-size: 70px;
 				text-align: lefts;
 			}
 			h2 {
@@ -50,7 +55,7 @@
 			.papa {
 				display: flex;
 				flex-direction: space-around;
-				gap: 36rem;
+				gap: 36.1rem;
 			}
 			.mama {
 				display: flex;
@@ -72,10 +77,25 @@
 				flex-direction: space-around;
 				gap: 33.1rem;
 			}
+			.college {
+				display: flex;
+				flex-direction: space-around;
+				gap: 29.6rem;
+			}
 		</style>
 	</head>
 	<body>
-		<h1>BIO-DATA</h1>
+		<div class="picture">
+			<h1><b>BIO-DATA</b></h1>
+			<div>
+				<img
+					src="image/Mark.jpg"
+					alt=" formal attire"
+					width="350"
+					height="350"
+				/>
+			</div>
+		</div>
 
 		<h2>PERSONAL DATA</h2>
 
@@ -277,11 +297,18 @@
 			</div>
 
 			<br />
-			<div>
-				<tr>
-					<b> College:</b>
-					Batangas State University - JPLPC Malvar
-				</tr>
+			<div class="college">
+				<div>
+					<tr>
+						<b> College:</b>
+						Batangas State University - JPLPC Malvar
+					</tr>
+				</div>
+				<div>
+					<tr>
+						<b>Year Graduated:</b>
+					</tr>
+				</div>
 			</div>
 		</div>
 	</body>
