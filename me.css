@@ -21,6 +21,7 @@ a {
 div {
 	display: flex;
 	flex-direction: space-around;
+	gap: 5rem;
 }
 .facebook:hover {
 	background: var(--color);
@@ -31,6 +32,6 @@ div {
 .instagram:hover {
 	background: var(--color);
 	color: #050801;
-	box-shadow: 0 0 4px var(--color), 0 0 8px var(--color),
-		0 0 12px var(--color), 0 0 24px var(--color);
+	box-shadow: 0 0 5px var(--color), 0 0 25px var(--color),
+		0 0 50px var(--color), 0 0 200px var(--color);
 }

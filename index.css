@@ -1,4 +1,18 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css);
+.greeting {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+		sans-serif;
+}
+
+.me {
+	font-size: 30px;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+		sans-serif;
+	text-shadow: 4px 3px 5px;
+}
+.text {
+	font-family: "Courier New", Courier, monospace;
+}
 
 img {
 	border-radius: 50%;
@@ -13,4 +27,14 @@ img {
 
 .jordan:hover img {
 	transition: scale(1, 5);
+}
+
+.FACEBOOK {
+	font-size: 2em;
+}
+.INSTAGRAM {
+	font-size: 2em;
+}
+.GITHUB {
+	font-size: 2em;
 }
