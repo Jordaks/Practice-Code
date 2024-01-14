@@ -29,12 +29,13 @@ img {
 	transition: scale(1, 5);
 }
 
-.FACEBOOK {
+.FACEBOOK:hover {
 	font-size: 2em;
+	color: rgb(125, 125, 255);
 }
-.INSTAGRAM {
-	font-size: 2em;
+.INSTAGRAM :hover {
+	font-size: 1.5em;
 }
-.GITHUB {
-	font-size: 2em;
+.GITHUB :hover {
+	font-size: 1.5em;
 }
