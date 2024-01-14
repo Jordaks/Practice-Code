@@ -30,12 +30,38 @@ img {
 }
 
 .FACEBOOK:hover {
+	font-size: 2.8em;
+}
+.FACEBOOK {
 	font-size: 2em;
-	color: rgb(125, 125, 255);
 }
 .INSTAGRAM :hover {
-	font-size: 1.5em;
+	font-size: 1.2em;
+}
+.INSTAGRAM {
+	font-size: 2em;
 }
 .GITHUB :hover {
-	font-size: 1.5em;
+	font-size: 1.2em;
+}
+.GITHUB {
+	font-size: 2em;
+}
+.pagination {
+	text-align: center;
+}
+.pagination a {
+	color: black;
+	text-decoration: none;
+	padding: 8px 15px;
+	display: inline-block;
+}
+.pagination a.index {
+	font-weight: bold;
+	background-color: aqua;
+	border-radius: 5px;
+}
+.pagination a:hover:not(.index) {
+	background-color: rgb(95, 95, 95);
+	border-radius: 5px;
 }
